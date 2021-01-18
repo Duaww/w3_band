@@ -15,19 +15,19 @@
       <div id="header">
         <!-- Begin : Nav -->
         <ul id="nav">
-          <li><a href="">Home</a></li>
-          <li><a href="">Tour</a></li>
-          <li><a href="">Band</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#band">Band</a></li>
+          <li><a href="#tour">Tour</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
             <a href="#">
               More
               <i class="nav-icon-down ti-angle-down"></i>
             </a>
             <ul class="sub-nav">
-              <li><a href="">Merchandise</a></li>
-              <li><a href="">Extras</a></li>
-              <li><a href="">Media</a></li>
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">Media</a></li>
             </ul>
           </li>
         </ul>
@@ -51,7 +51,7 @@
 
       <div id="content">
         <!-- Begin : About section -->
-        <div class="content-section">
+        <div id="band" class="content-section">
           <h2 class="content-header">THE BAND</h2>
 
           <p class="content-sub-header">We love music</p>
@@ -102,7 +102,7 @@
         <!-- End : About section -->
 
         <!-- Begin : Tour section -->
-        <div class="tour-section">
+        <div id="tour" class="tour-section">
           <div class="content-section">
             <h2 class="content-header text-white">TOUR DATES</h2>
 
@@ -117,7 +117,7 @@
             </ul>
 
             <!-- Places -->
-            <div class=" row place-list">
+            <div class="row place-list">
               <div class="col col-thir">
                 <img
                   src="/assets/img/places/place1.jpg"
@@ -130,7 +130,7 @@
                   <p class="place-dct">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                  <a href="#" class="btn">Buy Tickets</a>
                 </div>
               </div>
 
@@ -146,7 +146,7 @@
                   <p class="place-dct">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                  <a href="#" class="btn">Buy Tickets</a>
                 </div>
               </div>
 
@@ -162,13 +162,16 @@
                   <p class="place-dct">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <a href="#" class="place-buy-btn">Buy Tickets</a>
+                  <a href="#" class="btn">Buy Tickets</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="content-section">
+        <!-- End : Tour section -->
+
+        <!-- Begin : Contact section -->
+        <div id="contact" class="content-section">
           <h2 class="content-header">CONTACT</h2>
           <p class="content-sub-header">Fan? Drop a note!</p>
           <div class="row contact-content">
@@ -179,27 +182,69 @@
             </div>
             <div class="col col-half contact-form">
               <form action="">
-                <div class="row ">
+                <div class="row">
                   <div class="col col-half">
-                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                    <input
+                      type="text"
+                      name=""
+                      placeholder="Name"
+                      required
+                      id=""
+                      class="form-control"
+                    />
                   </div>
                   <div class="col col-half">
-                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                    <input
+                      type="email"
+                      name=""
+                      placeholder="Email"
+                      required
+                      id=""
+                      class="form-control"
+                    />
                   </div>
                 </div>
                 <div class="row">
                   <div class="col col-full mt-8px">
-                    <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                    <input
+                      type="text"
+                      name=""
+                      placeholder="Message"
+                      required
+                      id=""
+                      class="form-control"
+                    />
                   </div>
                 </div>
-                <input type="submit" value="SEND" class="submit-btn mt-16px">
+                <input
+                  type="submit"
+                  value="SEND"
+                  class="btn mt-16px pull-right"
+                />
               </form>
             </div>
           </div>
         </div>
+        <!-- End : Contact section -->
       </div>
+      <!-- Begin : Map section -->
+      <div class="map-section">
+        <img src="./assets/img/map.jpg" alt="Map" />
+      </div>
+      <!-- End : Contact section -->
 
-      <div id="footer"></div>
+
+      <div id="footer">
+        <div class="social-list">
+          <a href="#"><i class="ti-facebook"></i></a>
+          <a href="#"><i class="ti-instagram"></i></a>
+          <a href="#"><i class="ti-youtube"></i></a>
+          <a href="#"><i class="ti-pinterest"></i></a>
+          <a href="#"><i class="ti-twitter"></i></a>
+          <a href="#"><i class="ti-linkedin"></i></a>
+        </div>
+        <p class="copy-right">Powered by <a href="https://www.w3schools.com/w3css/tryw3css_templates_band.htm#band">w3.css</a></p>
+      </div>
     </div>
   </body>
 </html>
